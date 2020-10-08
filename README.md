@@ -2,4 +2,4 @@
 ## My journey towards Web Development<br>
 <b>Day 1:</b>
 <br><br>
-<img src="Screenshots/day1.png">
+<img src="Screenshots/Day1.png">
