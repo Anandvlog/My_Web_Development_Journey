@@ -3,4 +3,6 @@
 <b>Day 1:</b>
 <br><br>
 <img src="Screenshots/Day1.png"><br><br>
+<b>Day 2:</b>
+<br><br>
 <img src="Screenshots/Day2.png">
