@@ -18,4 +18,8 @@
 <b>Day 5:</b>
 <br><br>
 <img src="Screenshots/Day5.png">
+<br><br>
+<b>Day 6:</b>
+<br><br>
+<img src="Screenshots/Day6.png">
 
