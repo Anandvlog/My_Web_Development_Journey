@@ -22,4 +22,11 @@
 <b>Day 6:</b>
 <br><br>
 <img src="Screenshots/Day6.png">
-
+<br><br>
+<b>Day 7:</b>
+<br><br>
+<img src="Screenshots/Day7.png">
+<br><br>
+<b>Day 7(1):</b>
+<br><br>
+<img src="Screenshots/Day7(1).png">
