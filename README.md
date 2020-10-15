@@ -30,3 +30,7 @@
 <b>Day 7 (1):</b>
 <br><br>
 <img src="Screenshots/Day7 (1).png">
+<br><br>
+<b>Day 8:</b>
+<br><br>
+<img src="Screenshots/Day8.png">
