@@ -34,3 +34,7 @@
 <b>Day 8:</b>
 <br><br>
 <img src="Screenshots/Day8.png">
+<br><br>
+<b>Day 9:</b>
+<br><br>
+<img src="Screenshots/Day9.png">
