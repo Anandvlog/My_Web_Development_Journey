@@ -1,0 +1,70 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+
+}
+.circle
+{
+	position: relative;
+	width: 60vh;
+	height: 60vh;
+    top: 150px;
+	background: linear-gradient(#33ccff,#ff0066);
+	border-radius: 50%;                          /*20*/
+	animation: animate 0.5s linear infinite;
+
+}
+@keyframes animate {
+	from
+	{
+		transform: rotate(0deg);
+
+	}
+	to {
+		transform: rotate(360deg);
+	}
+} 
+.circle:after
+{
+	content: '';
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    bottom: 35px;
+    left:  35px;
+    border-radius: 50%;		    	 
+    background-color: black;
+}
+.circle span 
+{
+    position: absolute;
+	width: 100%;   /*60*/
+	height: 100%;  /*60*/
+	background: linear-gradient(#33ccff,#ff0066);
+	border-radius: 50%;
+
+
+
+}
+.circle span:nth-child(1)
+{
+	filter: blur(5px);
+}
+.circle span:nth-child(2)
+{
+	filter: blur(10px);
+}
+.circle span:nth-child(3)
+{
+	filter: (20px);
+
+}
+.circle span:nth-child(4)
+{
+	filter: (55px);
+}
