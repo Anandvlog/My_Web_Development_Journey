@@ -50,3 +50,7 @@
 <b>Day 12:</b>
 <br><br>
 <img src="Screenshots/Day12.png">
+<br><br>
+<b>Day 13:</b>
+<br><br>
+<img src="Screenshots/Day13.png">
