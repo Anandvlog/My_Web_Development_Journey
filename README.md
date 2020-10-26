@@ -54,3 +54,7 @@
 <b>Day 13:</b>
 <br><br>
 <img src="Screenshots/Day13.png">
+<br><br>
+<b>Day 14:</b>
+<br><br>
+<img src="Screenshots/Day14.png">
