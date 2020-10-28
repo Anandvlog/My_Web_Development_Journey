@@ -1,0 +1,84 @@
+
+/****************css**********************/
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #8AF3F9;
+	background-size: cover;
+}
+/********************rotate image-01 css ********************************/
+.rotate_01
+{
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -60px 0 0 -280px;
+	-webkit-transition: -webkit-transform 1s;
+
+
+}
+.rotate_01:hover
+{
+	-webkit-transform: rotate(360deg) translateZ(0);
+}
+/********************rotate image-02 css ********************************/
+.rotate_02
+{
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -60px 0 0 -60px;
+	
+}
+.rotate_02:hover
+{
+	-webkit-animation: spin 1s linear infinite;
+	-moz-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
+
+/********************rotate image-03 css ********************************/
+.rotate_03
+{
+	
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -60px 0 0 150px;
+	-webkit-animation: spin 1s linear infinite;
+	-moz-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
+
+/******************use keyframes**********************/
+@-webkit-keyframes spin
+{
+	100%
+	{
+		-webkit-transform: rotate(360deg);
+	}
+
+}
+@-moz-keyframes:spin
+{
+	100%
+	{
+		-webkit-transform: rotate(360deg);
+	}
+}
+@keyframes spin 
+{
+    100%
+    {
+      -webkit-transform: rotate(360deg);
+    }
+}
