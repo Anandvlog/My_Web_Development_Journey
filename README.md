@@ -62,3 +62,7 @@
 <b>Day 15:</b>
 <br><br>
 <img src="Screenshots/Day15.png">
+<br><br>
+<b>Day 16:</b>
+<br><br>
+<img src="Screenshots/Day16.gif">
