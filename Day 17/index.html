@@ -1,0 +1,63 @@
+<!-------------------------Dropdown Menu using HTML CSS and Javascript-------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="'https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap">
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="navbar">
+		<div class="logo">
+			<a href="#">A-Tech</a>
+		</div>
+		<div class="nav_right">
+			<ul>
+				<li class="nr_li dd_main">
+					<img src="img/profile_pic.png" alt="profile_img">
+					
+					<div class="dd_menu">
+						<div class="dd_left">
+							<ul>
+								<li><i class="fas fa-map-marker-alt"></i></li>
+								<li><i class="far fa-star"></i></li>
+								<li><i class="far fa-plus-square"></i></li>
+								<li><i class="fas fa-cog"></i></li>
+								<li><i class="fas fa-download"></i></li>
+								<li><i class="fas fa-sign-out-alt"></i></li>
+							</ul>
+						</div>
+						<div class="dd_right">
+							<ul>
+								<li>Location</li>
+								<li>Favorites</li>
+								<li>Addpeople</li>
+								<li>Settings</li>
+								<li>Downloads</li>
+								<li>Logout</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="nr_li">
+					<i class="fas fa-envelope-open-text"></i>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>	
+
+<script>
+	var dd_main = document.querySelector(".dd_main");
+
+	dd_main.addEventListener("click", function(){
+		this.classList.toggle("active");
+	})
+</script>
+	
+</body>
+</html>
