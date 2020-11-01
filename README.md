@@ -70,3 +70,7 @@
 <b>Day 17:</b>
 <br><br>
 <img src="Screenshots/Day17.gif">
+<br><br>
+<b>Day 18:</b>
+<br><br>
+<img src="Screenshots/Day18.gif">
