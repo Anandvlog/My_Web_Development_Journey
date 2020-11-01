@@ -1,0 +1,50 @@
+
+ body{
+ 	margin:0;
+ }
+
+ *{
+ 	box-sizing: border-box;
+ }
+
+ .product{
+ 	background-color: #e1ebf1;
+ 	height: 100vh;
+ 	padding:40px 15px;
+ }
+
+ .product .product-img img{
+ 	max-width: 400px;
+ 	margin: auto;
+ 	display: block;
+ }
+.product .pagination {
+	text-align: center;
+	padding:40px 0px;
+}
+.product .pagination button{
+	border:none;
+    width:25px;
+    height: 25px;
+    margin:4px;
+    cursor: pointer;
+
+}
+
+
+.product .pagination button.active{
+	animation: activeButton 1s linear alternate infinite;
+}
+
+@keyframes activeButton{
+	50%{
+		transform: scale(0.6);
+	}
+}
+
+
+
+
+
+
+
