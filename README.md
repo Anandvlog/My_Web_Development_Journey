@@ -85,5 +85,5 @@
 <br><br>
 <b>Day 21:</b>
 <br><br>
-<img src="Screenshots/Day21.gif">
+<img src="Screenshots/Day 21.gif">
 
