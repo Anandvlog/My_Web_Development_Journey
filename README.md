@@ -83,7 +83,7 @@
 <br><br>
 <img src="Screenshots/Day20.gif">
 <br><br>
-<b>Day 20:</b>
+<b>Day 21:</b>
 <br><br>
 <img src="Screenshots/Day21.gif">
 
