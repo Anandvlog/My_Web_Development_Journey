@@ -1,0 +1,16 @@
+body{margin: 0;padding: 0;}
+.menu-wrapper{max-height: 1000px;margin: 0 auto;}
+.nav-area{position: fixed;left: 0;top: 0;width: 100%;box-sizing: border-box;transition: top .6s;background: rgba(0,0,0,0.6);padding: 10px;overflow: hidden;}
+.logo{display: inline-block;margin: 0;}
+.logo a{text-decoration: none;color: #fff;font-size: 32px;font-family: merienda;margin-left: 230px;text-transform: uppercase;}
+.menu-wrapper nav{float: right;}
+.right-nav{overflow: hidden;list-style: none;}
+.right-nav li{float: left;margin-left: 16px;}
+.right-nav li a{color: #fff;text-decoration: none;font-family: roboto;font-size: 16px;font-weight: bold;text-transform: uppercase;}
+.banner-area{ height: 100vh;background-image: url(image/1.jpg);-webkit-background-size:cover;background-size: cover;background-position: center center;}
+.main-text{max-width: 1000px;margin: 100px auto 0;}
+.main-text h2{font-size: 60px;font-family: bignoodletitling;text-align: center;color: crimson;}
+.main-text p{font-family: poppins;font-size: 18px;line-height: 1.8;}
+p::first-letter{font-size: 300%;color: crimson;}
+.nav-area.animate{top: -71px;}
+.nav-area.sticky{top: 0;z-index: 99;}
