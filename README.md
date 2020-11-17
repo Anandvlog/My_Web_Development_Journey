@@ -90,4 +90,8 @@
 <b>Day 22:</b>
 <br><br>
 <img src="Screenshots/Day22.gif">
+<br><br>
+<b>Day 23:</b>
+<br><br>
+<img src="Screenshots/Day23.gif">
 
