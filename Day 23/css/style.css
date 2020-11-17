@@ -1,0 +1,81 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: 'consolas';
+	background-color: #181818;
+	text-align: center;
+}
+h2
+{
+	color: #fff;
+	font-size: 4em;
+	margin: 40px 0 20px;
+}
+.container
+{
+   display: flex;
+   height: 600px;
+}
+.ripple, .ripple1
+{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.ripple img, .ripple1 img
+{
+	height: 100px;
+	width: 100px;
+	z-index: 1;
+
+
+}
+/* any Animation Name use **/
+
+.ripple span, .ripple1 span
+{  
+	position: absolute;
+	border-radius: 500px; 
+    display: block;
+    animation: ripple 4s linear infinite;
+    animation-delay: calc(0.5s * var(--i));
+}
+.ripple span
+{
+   background-color: rgba(255,255,255,0.15);
+}
+.ripple1 span
+{
+     border: 1px solid #fff;
+}
+
+/**Ripple Animation code**/
+/**Animation name and keyframes name same**/
+@keyframes ripple
+{
+    0%
+    { 
+    	height:100px;
+    	width: 100px;
+    	
+
+    }
+    50%
+    {
+       opacity: 1;
+
+    }
+    100%
+    {
+    	 opacity: 0;
+    	 height: 500px;
+         width: 500px;
+         
+    }
+}
